@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>StudentAppointment</servlet-name>
+        <servlet-class>StudentAppointmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentAppointment</servlet-name>
+        <url-pattern>/StudentAppointment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminView</servlet-name>
+        <servlet-class>AdminViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminView</servlet-name>
+        <url-pattern>/AdminView</url-pattern>
+    </servlet-mapping>
+</web-app>
